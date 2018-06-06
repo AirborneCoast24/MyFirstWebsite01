@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<head>
+        <title>Dorville's 1st Website</title>
+   </head>
+    <style>
+           body {
+               background: rgb(0, 0, 255);
+               color: rgb(45, 45, 45);
+               padding: 10px;
+               font-family: arial;
+           }
+           header {
+               font-size: 1.5em;
+               font-weight: bold;
+           }
+           #all-contents {
+               max-width: 800px;
+               margin: auto;
+           }
+   
+           /* navigation menu */
+           nav {
+               background: rgb(0, 0, 41);
+               margin: 0 auto;
+               margin-bottom: 20px;
+               display: flex;
+               padding: 10px;
+           }
+           nav header {
+               display: flex;
+               align-items: center;
+               color: rgb(255, 255, 255);
+               flex: 1;
+           }
+           nav ul {
+               list-style-image: none;
+           }
+           nav li {
+               display: inline-block;
+               padding: 0 10px;
+           }
+           nav a {
+               text-decoration: none;
+               color: #fff;
+           }
+   
+           /* main container area beneath menu */
+           main {
+               background: rgb(0, 255, 0);
+               display: flex;
+           }
+           .sidebar {
+               margin-right: 25px;
+               padding: 10px;
+           }
+           .sidebar img {
+               width: 200px;
+           }
+           .content {
+               flex: 1;
+               padding: 15px;
+           }
+           .interests header {
+               font-size: 1.25em;
+           }
+       </style>
+   <body>
+     <div id="all-contents"> 
+           <nav>
+           <header>
+             <h3>Dorville's 1st Website</h3>
+              <ul>
+              <li><a href="index.html">Home</a></li>
+                   <li><a href="portfolio.html">Portfolio</a></li>     
+               </ul>
+           </nav>
+           
+           <main>
+             <div class="sidebar">
+                 <img src="https://lh4.googleusercontent.com/-3hd9zD1FzKg/AAAAAAAAAAI/AAAAAAAAAAc/YDVy8TQxFjg/photo.jpg" />
+               </div>
+   
+               <div class="content">
+                
+                 <header> 
+                 <h1>Dorville Thomas</h1>
+               </header>
+               
+               <p1>Dorville is a student at BMAHS.
+               </p>
+                <section class="interests">
+                       <header>
+                         <h2>Interests</h2>
+                       <ul>
+                           <li>Videogames</li>
+                           <li>frozen up</li>
+                           <li>cheerleading</li>
+                       </ul>
+                   </section>
+                
+                 
+               </div>
+           </main>
+       </div>
+   </body>
+</html>
